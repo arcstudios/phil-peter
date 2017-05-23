@@ -1,0 +1,22 @@
+{
+  "name": "phil-peter",
+  "homepage": "https://github.com/arcstudios/phil-peter",
+  "authors": [
+    "mutsinzi <mutsinzi@protonmail.com>"
+  ],
+  "description": "Philpeter website",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  }
+}
