@@ -13,7 +13,7 @@
           <div class="row" style="height: auto">
             <div class="col-md-4 col-sm-4">
               <div class="thumb--outer">
-                <img style="height: 260px; width: 260px" src="{{site.github.url}}/assets/img/{{post.image}}" alt="{{post.title}}" class="img-responsive">
+                <img style="height: 260px; width: 260px" src="{{site.baseurl}}/assets/img/{{post.image}}" alt="{{post.title}}" class="img-responsive">
               </div>
             </div>
             <div class="col-md-8 col-sm-8"style="height: auto;" >
@@ -25,7 +25,7 @@
                   <p>{{post.excerpt | truncate: 300 }}</p>
 
                 </div>
-                <a style="position: absolute; bottom: 0" href="{{post.url}}" class="btn btn-primary">Read More</a>
+                <a style="position: absolute; bottom: 0" href="{{site.baseurl}}{{post.url}}" class="btn btn-primary">Read More</a>
               </div>
             </div>
           </div>
