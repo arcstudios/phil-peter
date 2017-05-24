@@ -17,8 +17,49 @@ body{
   margin: 0 auto;
 }
 
+.cd-radial-slider-wrapper {
+  max-width: 100% !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
 .highlight__wrapper{
-  padding-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
+  padding-bottom: 0;
   background-color: #fafafa;
+}
+.cd-radial-slider{
+  margin-bottom: 0 !important;
+}
+
+.cd-radial-slider-navigation{
+  margin-bottom: 0;
+}
+
+.details-wrapper{
+  background-color: #fff;
+}
+
+.detail--sized{
+  font-size: 12px !important;
+  font-weight: 800;
+}
+
+
+
+.list-item{
+
+  padding: 1em;
+}
+
+
+.poem-wrapper{
+  background-color: #fff;
+  height: 300px;
+  padding: 2em;
+}
+
+.poem-wrapper p{
+  font-size: 2em !important;
+  line-height: 1em;
+  color: #ff475b !important;
 }

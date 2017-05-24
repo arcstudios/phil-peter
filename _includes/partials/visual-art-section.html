@@ -1,0 +1,27 @@
+<section style="background-color:#f1f1f1; max-width: 960px !important; margin: 0 auto !important; padding-bottom: 3em">
+  <div class="text-center heading-wrap" style="padding: 3em">
+    <h2>Visual Art</h2>
+    <hr/>
+  </div>
+  <article>
+    <div class="row">
+    {% for post in site.posts %}
+    <!-- news -->
+    {% if post.visual %}
+      <div class="col-md-4 col-sm-4">
+        <div class="card">
+          <img src="{{site.github.url}}/assets/img/{{post.image}}" class="img-responsive">
+        </div>
+        <div class="details-wrapper">
+          <ul style="max-width: 300px" class="text-center list-inline">
+            <li class="list-item text-left"><a class="detail--sized ">{{post.title}}</a></li> |
+            <li class="list-item text-right"><a class="detail--sized ">{{post.artist}}</a></li>
+          </ul>
+        </div>
+      </div>
+    {% endif %}
+    {% endfor %}
+    <hr/>
+  </div>
+  </article>
+</section>
