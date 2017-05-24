@@ -4,21 +4,21 @@
   <body>
     {% include nav.html %}
     {{content}}
-    <script type="text/javascript" src="{{site.url}}/bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="{{site.url}}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
-    	if( !window.jQuery ) document.write('<script src="{{site.url}}/js/jquery-2.2.1.min.js"><\/script>');
+    	if( !window.jQuery ) document.write('<script src="{{site.baseurl}}/js/jquery-2.2.1.min.js"><\/script>');
     </script>
-    <script src="{{site.url}}/js/snap.svg-min.js"></script>
-    <script src="{{site.url}}/js/main.js"></script> <!-- Resource jQuery -->
+    <script src="{{site.baseurl}}/js/snap.svg-min.js"></script>
+    <script src="{{site.baseurl}}/js/main.js"></script> <!-- Resource jQuery -->
     <!-- Waypoints -->
-    <script src="{{site.url}}/js/jquery.waypoints.min.js"></script>
+    <script src="{{site.baseurl}}/js/jquery.waypoints.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="{{site.url}}/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{site.baseurl}}/js/jquery.magnific-popup.min.js"></script>
     <!-- Salvattore -->
-    <script src="{{site.url}}/js/salvattore.min.js"></script>
-    <srctip src="{{site.url}}/js/gallery.js"></script>
+    <script src="{{site.baseurl}}/js/salvattore.min.js"></script>
+    <srctip src="{{site.baseurl}}/js/gallery.js"></script>
     <!-- Main JS -->
-    <!-- <script src="{{site.url}}/js/gallery.js"></script> -->
+    <!-- <script src="{{site.baseurl}}/js/gallery.js"></script> -->
   </body>
 </html>
