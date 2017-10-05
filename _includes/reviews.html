@@ -1,0 +1,28 @@
+<section style="background-color: #f9f9f9; max-width: 960px !important; margin: 0 auto !important; padding-bottom: 3em">
+  <div class="text-center heading-wrap" style="padding: 3em">
+    <h2>Reviews</h2>
+  </div>
+  <article>
+    <div class="row">
+    {% for post in site.posts %}
+    <!-- news -->
+    {% if post.poetry %}
+      <div class="col-md-6 col-sm-6">
+        <div class="card">
+          <div class="poem-wrapper">
+            <p>{{post.excerpt | truncate: 300 }}</p>
+          </div>
+        </div>
+        <div class="details-wrapper" style="background-color: #f0f0f0 !important">
+          <ul style="max-width: 300px" class="text-center list-inline">
+            <li class="list-item text-left"><a class="detail--sized ">{{post.title}}</a></li> |
+            <li class="list-item text-right"><a class="detail--sized ">{{post.artist}}</a></li>
+          </ul>
+        </div>
+      </div>
+    {% endif %}
+    {% endfor %}
+    <hr/>
+  </div>
+  </article>
+</section>

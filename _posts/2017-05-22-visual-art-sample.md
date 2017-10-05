@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Visual Art sample
-image: sample.jpg
+title: SIMBI the inventor
+image: simbi.png
+artist: MIKA Hirwa
+price: 9.99$
 visual: true;
-artist: Artist Name
 ---

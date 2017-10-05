@@ -1,20 +1,58 @@
 	<div class="cd-gallery-container">
 		<nav class="cd-filter">
+
+
+
+
+			<section style="background-color:#f1f1f1; max-width: 960px !important; margin: 0 auto !important; padding-bottom: 3em">
+			  <div class="text-center heading-wrap" style="padding: 3em">
+			    <h2>Latest releases</h2>
+			    <hr/>
+			  </div>
+			  <article>
+			    <div class="row">
+			    {% for post in site.posts %}
+			    <!-- news -->
+			    {% if post.visual %}
+			      <div class="col-md-4 col-sm-4">
+			        <div class="card">
+			          <img src="{{site.baseurl}}/assets/img/{{post.image}}" class="img-responsive">
+			        </div>
+			        <div class="details-wrapper">
+			          <ul style="max-width: 300px" class="text-center list-inline">
+			            <li class="list-item text-left"><a class="detail--sized ">
+										|  {{post.title}}</a></li>
+									<br> |
+			            <li class="list-item text-right"><a class="detail--sized ">by :{{post.artist}}</a></li>
+									<br>
+									<li class="list-item text-right"><a class="detail--sized ">| {{post.price}} |</a></li>
+			          </ul>
+			        </div>
+			      </div>
+			    {% endif %}
+			    {% endfor %}
+			    <hr/>
+			  </div>
+			  </article>
+			</section>
+
+
+
 			<ul>
 				<li class="placeholder">
 					<a data-type="red" href="#0"></a>
 				</li>
 
 				<li>
-					<a class="selected" data-type="red" href="#0">Poetry</a>
+					<a class="selected" data-type="red" href="#0">novels</a>
 				</li>
 
 				<li>
-					<a data-type="blue" href="#0">Music</a>
+					<a data-type="blue" href="#0">commics</a>
 				</li>
 
 				<li>
-					<a data-type="green" href="#0">Visual Art</a>
+					<a data-type="green" href="#0">novels</a>
 				</li>
 			</ul>
 		</nav>

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Poetry sample
+title: Book Name
 poetry: true;
-artist: Artist Name
+artist: Reviewer Name
 ---
 
-this is a poem about this and that, I swear you must think my verse is simple like tit for tat
+this is a Review about this and that, I swear you must think my verse is simple like tit for tat

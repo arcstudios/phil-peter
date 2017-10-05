@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<main class="gallery-wrapper">
+
+    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/205629977&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+    <section style="background-color: #f9f9f9; max-width: 960px !important; margin: 0 auto !important; padding-bottom: 3em">
+      <div class="text-center heading-wrap" style="padding: 3em">
+        <h2>videos</h2>
+      </div>
+      <article>
+        <div class="row">
+        {% for post in site.posts %}
+        <!-- news -->
+        {% if post.poetry %}
+          <div class="col-md-6 col-sm-6">
+            <div class="card">
+              <div class="poem-wrapper">
+
+              </div>
+            </div>
+            <div class="details-wrapper" style="background-color: #f0f0f0 !important">
+
+              </ul>
+            </div>
+          </div>
+        {% endif %}
+        {% endfor %}
+        <hr/>
+      </div>
+      </article>
+    </section>
+
+
+</main>

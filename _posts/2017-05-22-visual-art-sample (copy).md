@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Visual Art sample
-image: sample.jpg
-artist: Artist Name
+title: MAHORO 
+image: mahoro.png
+artist: Author's Name
+price: 9.99$;
 visual: true;
 ---
